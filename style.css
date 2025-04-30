@@ -1,5 +1,52 @@
 body {
-    background: #000000;
     background: linear-gradient(180deg,rgba(0, 0, 0, 1) 0%, rgba(120, 120, 120, 1) 100%);
     background-attachment: fixed;
+}
+
+.oswald-<uniquifier> {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+.header {
+    background-color: #de733e;
+}
+
+.navbar {
+    font-family: oswald;
+    text-align: center;
+}
+
+.nombre {
+    color: #e8e0ae;
+}
+
+.SobreMi {
+    font-family: oswald;
+    font-size: large;
+    color: #e8e0ae;
+    text-align: center;
+}
+
+.textoSobreMi {
+    color: #e8e0ae;
+}
+
+.texto {
+    color: #52493a;
+}
+
+.imagenPerfil {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 3px solid #ffffff;
+}
+
+.formación {
+    border-radius: 2%;
+    font-family: oswald;
+    background-color: #e8e0ae;
 }

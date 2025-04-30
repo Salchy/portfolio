@@ -5,26 +5,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Leandro Correa</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="header">
         <nav class="navbar">
             <div class="nombre">
-                <h2>Leandro Correa</h2>
+                <h1>Leandro Correa</h1>
             </div>
             <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Sobre Mí</a></li>
-                <li><a href="#">Formación</a></li>
-                <li><a href="#">Proyectos</a></li>
-                <li><a href="#">Experiencias</a></li>
+                <a href="#">Inicio</a>
+                <a href="#SobreMi">Sobre Mí</a>
+                <a href="#Formación">Formación</a>
+                <a href="#">Proyectos</a>
+                <a href="#">Experiencias</a>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section>
-            <p>prueba</p>
+        <section class="SobreMi" id=SobreMi>
+            <img src="LeandroCorrea.png" alt="" class="imagenPerfil">
+            <div>
+                <p class="textoSobreMi">
+                    Hola, soy Leandro Correa, Aficionado al Mundo IT, Sysadmin e Infraestructura<br>
+                    Programador Autodidacta, programo desde los 16 años, en el lenguaje de programación Lua.<br>
+                    Estudiante del primer año de la Tecnicatura Superior en Programación en la UTN - FRGP.<br>
+                    Soy Técnico en reparación de PC. Actualmente formandome dentro del área de Infraestructura. (Redes y Servidores)
+                </p>
+            </div>
+        </section>
+
+        <section class="formación" id="Formación">
+            <div class="texto">
+                <p>Universidad Tecnológica Nacional</p>
+                <ul>Estudiante de Tecnicatura Universitaria en Programación</ul>
+
+                <p>Instituto Cultural Británico</p>
+                <ul>Inglés</ul>
+
+                <p>EducacionIT</p>
+                <ul>
+                    Fundamentos sobre CCNA1:
+                    Fundamentos sobre redes y networking en general.
+                </ul>
+
+                <p>EducacionIT</p>
+                <ul>
+                    Administering Windows Server Hybrid Core Infrastructure, AZ-800T00
+                </ul>
+
+                <p>Udemy Academy</p>
+                <ul>
+                    Fundamentos sobre Redes (Switching, Routing, redireciconamiento IP)
+                    Fundamentos sobre el principal protocolo actualmente que se usa en internet (TCP/IP)
+                    Aprendí sobre Rutas Estáticas y Diámicas y cómo configurarlas.
+                    También aprendí sobre los principales protocolos TCP y UDP.
+                    Administración de VLAN, PAT y NAT estático y dinamico.
+                    DNS y resolución de nombres de dominio, y DHCP.
+                </ul>
+            </div>
         </section>
     </main>
     
