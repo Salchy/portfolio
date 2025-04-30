@@ -11,7 +11,7 @@ body {
 }
 
 .header {
-    background-color: #de733e;
+    background-color: #FF6E31;
 }
 
 .navbar {
@@ -20,18 +20,18 @@ body {
 }
 
 .nombre {
-    color: #e8e0ae;
+    color: #FFEBB7;
 }
 
 .SobreMi {
     font-family: oswald;
     font-size: large;
-    color: #e8e0ae;
+    color: #FFEBB7;
     text-align: center;
 }
 
 .textoSobreMi {
-    color: #e8e0ae;
+    color: #FFEBB7;
 }
 
 .texto {
@@ -45,8 +45,33 @@ body {
     border: 3px solid #ffffff;
 }
 
-.formación {
-    border-radius: 2%;
+.contenido {
     font-family: oswald;
-    background-color: #e8e0ae;
+    background-color: #FFEBB7;
+}
+
+.menu {
+    font-family: oswald;
+}
+
+.subtitulo {
+    font-family: oswald;
+    color: #AD8E70;
+}
+
+.stack {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgStack {
+    padding: 20px;
+}
+
+.proyectos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
 }
