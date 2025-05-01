@@ -1,83 +1,114 @@
 body {
-    background: linear-gradient(180deg,rgba(0, 0, 0, 1) 0%, rgba(120, 120, 120, 1) 100%);
-    background-attachment: fixed;
+	background: linear-gradient(180deg,rgba(0, 0, 0, 1) 0%, rgba(120, 120, 120, 1) 100%);
+	background-attachment: fixed;
 }
 
 .oswald-<uniquifier> {
-    font-family: "Oswald", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
+	font-family: "Oswald", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: <weight>;
+	font-style: normal;
 }
 
 .header {
-    background-color: #FF6E31;
+	background-color: #FF6E31;
 }
 
 .navbar {
-    font-family: oswald;
-    text-align: center;
+	font-family: oswald;
+	text-align: center;
 }
 
 .nombre {
-    color: #FFEBB7;
+	color: #FFEBB7;
 }
 
 .SobreMi {
-    font-family: oswald;
-    font-size: large;
-    color: #FFEBB7;
-    text-align: center;
+	font-family: oswald;
+	font-size: large;
+	color: #FFEBB7;
+	text-align: center;
 }
 
 .textoSobreMi {
-    color: #FFEBB7;
+	color: #FFEBB7;
 }
 
 .texto {
-    color: #52493a;
+	color: #52493a;
 }
 
 .imagenPerfil {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    border: 3px solid #ffffff;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	border: 3px solid #ffffff;
 }
 
 .contenido {
-    font-family: oswald;
-    background-color: #FFEBB7;
+	font-family: oswald;
+	background-color: #FFEBB7;
 }
 
 .menu {
-    font-family: oswald;
+	font-family: oswald;
 }
 
 .subtitulo {
-    font-family: oswald;
-    color: #AD8E70;
+	font-family: oswald;
+	color: #AD8E70;
 }
 
 .stack {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .imgStack {
-    padding: 20px;
+	padding: 20px;
 }
 
 .proyectos {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 50px;
 }
 
 .contenidoProyectos {
-    justify-items: center;
-    text-align: center;
-    margin: 20px;
+	justify-items: center;
+	text-align: center;
+	margin: 20px;
+}
+
+.formulario {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+	
+}
+
+.formularioBackground {
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 50px;
+	background-color: #AD8E70;
+	border-radius: 10px;
+	display: grid;
+	width: 400px;
+}
+
+.mensajeContacto {
+	height: 150px;
+}
+
+footer {
+	background-color: #243763;
+}
+
+.imgFooter {
+	padding: 20px;
+	text-align: right;
 }
